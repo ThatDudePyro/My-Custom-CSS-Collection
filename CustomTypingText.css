@@ -1,0 +1,28 @@
+.typingDots_b88801 > .ellipsis_b88801 + .text_b88801 {
+  font-size: 0;
+  height: 16px;
+}
+
+.typingDots_b88801 > .ellipsis_b88801 + .text_b88801 > strong {
+  font-size: 12px;
+}
+
+.typingDots_b88801 > .ellipsis_b88801 + .text_b88801 > strong:last-child::after {
+  content: var(--single-user);
+  font-weight: 500;
+}
+
+.typingDots_b88801 > .ellipsis_b88801 + .text_b88801 > strong:last-child:not(:first-child)::after {
+  content: var(--multiple-users);
+  font-weight: 500;
+}
+
+.typingDots_b88801 > .ellipsis_b88801 + .text_b88801 > strong:not(:last-child)::after {
+  content: " + ";
+  font-weight: 500;
+}
+
+.typingDots_b88801 > .ellipsis_b88801 + .text_b88801:not(:has(>strong))::after {
+  font-size: 16px;
+  content: var(--several-users);
+}
