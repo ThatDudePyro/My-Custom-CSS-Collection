@@ -22,7 +22,7 @@ To use these, The import for each CSS **must be at the very top** of your CSS in
 
 <div align="center">
   <picture>
-    <img alt="CustomTypingText" src="assets/CustomTypingText.png" 
+    <img alt="CustomTypingText" src="Assets/CustomTypingText.png" 
   </picture>
 </div>
 
@@ -46,7 +46,7 @@ To use these, The import for each CSS **must be at the very top** of your CSS in
 
 <div align="center">
   <picture>
-    <img alt="EmbedBorder" src="assets/EmbedBorder.png" 
+    <img alt="EmbedBorder" src="Assets/EmbedBorder.png" 
   </picture>
 </div>
 
@@ -96,7 +96,7 @@ To use these, The import for each CSS **must be at the very top** of your CSS in
 
 <div align="center">
   <picture>
-    <img alt="FullSizePicker" src="assets/FullsizePicker.png" 
+    <img alt="FullSizePicker" src="Assets/FullsizePicker.png" 
   </picture>
 </div>
 
