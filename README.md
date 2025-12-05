@@ -1,6 +1,7 @@
 # My Custom CSS Collection
 
 This is a collection of the custom CSS that I use for equicord. This will be updated occasionally.
+
 To use these, The import for each CSS **must be at the very top** of your CSS in Equicord/Vencord, An example is given below.
 
 ---
