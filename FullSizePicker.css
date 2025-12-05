@@ -1,0 +1,7 @@
+[class*='layerContainer_'] [class*='positionLayer__'] {
+    height: 100% !important;
+    [class*='drawerSizingWrapper__'] {
+        top: 3.5em !important;
+        height: calc(100% - 8em)
+    }
+}

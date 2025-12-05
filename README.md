@@ -19,6 +19,13 @@ To use these, The import for each CSS **must be at the very top** of your CSS in
   --several-users: " Several people are yapping...";
 }
 ```
+
+<div align="center">
+  <picture>
+    <img alt="Example text" src="assets/CustomTypingText.png" 
+  </picture>
+</div>
+
 ---
 
 ## Embed Border
@@ -36,6 +43,13 @@ To use these, The import for each CSS **must be at the very top** of your CSS in
   --wh-always-show-suppress-embed-button: 0;
 }
 ```
+
+<div align="center">
+  <picture>
+    <img alt="Example text" src="assets/EmbedBorder.png" 
+  </picture>
+</div>
+
 ---
 
 ## Example of the two together
@@ -65,3 +79,25 @@ To use these, The import for each CSS **must be at the very top** of your CSS in
   --wh-always-show-suppress-embed-button: 0;
 }
 ```
+
+---
+
+## FullSize Picker
+
+```css
+[class*='layerContainer_'] [class*='positionLayer__'] {
+    height: 100% !important;
+    [class*='drawerSizingWrapper__'] {
+        top: 3.5em !important;
+        height: calc(100% - 8em)
+    }
+}
+```
+
+<div align="center">
+  <picture>
+    <img alt="Example text" src="assets/FullsizePicker.png" 
+  </picture>
+</div>
+
+---
