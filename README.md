@@ -18,6 +18,7 @@ To use these, The import for each CSS **must be at the very top** of your CSS in
   --multiple-users: " are yapping...";
   /*More than four users typing */
   --several-users: " Several people are yapping...";
+  --name-seperator: " and ";
 }
 ```
 
