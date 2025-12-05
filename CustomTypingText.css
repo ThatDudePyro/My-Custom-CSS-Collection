@@ -18,7 +18,7 @@
 }
 
 .typingDots_b88801 > .ellipsis_b88801 + .text_b88801 > strong:not(:last-child)::after {
-  content: " + ";
+  content: " and ";
   font-weight: 500;
 }
 
