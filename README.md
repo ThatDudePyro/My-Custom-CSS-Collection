@@ -69,6 +69,8 @@ To use these, The import for each CSS **must be at the very top** of your CSS in
   --multiple-users: " are yapping...";
   /*More than four users typing */
   --several-users: " Several people are yapping...";
+  /*name seperator */
+  --name-seperator: " and ";
 }
 
 /* Embed Border */
@@ -88,11 +90,11 @@ To use these, The import for each CSS **must be at the very top** of your CSS in
 ## FullSize Picker
 
 ```css
-[class*='layerContainer_'] [class*='positionLayer__'] {
+[class*='_59d0d7075b521375-layerContainer'] [class*='_084343c4f11eaaab-positionLayer'] {
     height: 100% !important;
-    [class*='drawerSizingWrapper__'] {
+    [class*='_084343c4f11eaaab-drawerSizingWrapper'] {
         top: 3.5em !important;
-        height: calc(100% - 8em)
+        height: calc(100% - 6em)
     }
 }
 ```
