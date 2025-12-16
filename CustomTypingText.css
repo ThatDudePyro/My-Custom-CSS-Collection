@@ -1,3 +1,14 @@
+:root {
+  /* one user typing */
+  --single-user: " is yapping...";
+  /*Two to four users typing */
+  --multiple-users: " are yapping...";
+  /*More than four users typing */
+  --several-users: " Several people are yapping...";
+  /*name seperator */
+  --name-seperator: " and ";
+}
+
 .b8880176888cc928-typingDots > .b8880176888cc928-ellipsis + .b8880176888cc928-text {
   font-size: 0;
   height: 16px;
