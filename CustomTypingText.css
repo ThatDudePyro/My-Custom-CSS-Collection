@@ -1,39 +1,28 @@
-:root {
-  /* one user typing */
-  --single-user: " is yapping...";
-  /*Two to four users typing */
-  --multiple-users: " are yapping...";
-  /*More than four users typing */
-  --several-users: " Several people are yapping...";
-  /*name seperator */
-  --name-seperator: " and ";
-}
-
-.b8880176888cc928-typingDots > .b8880176888cc928-ellipsis + .b8880176888cc928-text {
+.typingDots_b88801 > .ellipsis_b88801 + .text_b88801 {
   font-size: 0;
   height: 16px;
 }
 
-.b8880176888cc928-typingDots > .b8880176888cc928-ellipsis + .b8880176888cc928-text > strong {
+.typingDots_b88801 > .ellipsis_b88801 + .text_b88801 > strong {
   font-size: 12px;
 }
 
-.b8880176888cc928-typingDots > .b8880176888cc928-ellipsis + .b8880176888cc928-text > strong:last-child::after {
+.typingDots_b88801 > .ellipsis_b88801 + .text_b88801 > strong:last-child::after {
   content: var(--single-user);
   font-weight: 500;
 }
 
-.b8880176888cc928-typingDots > .b8880176888cc928-ellipsis + .b8880176888cc928-text > strong:last-child:not(:first-child)::after {
+.typingDots_b88801 > .ellipsis_b88801 + .text_b88801 > strong:last-child:not(:first-child)::after {
   content: var(--multiple-users);
   font-weight: 500;
 }
 
-.b8880176888cc928-typingDots > .b8880176888cc928-ellipsis + .b8880176888cc928-text > strong:not(:last-child)::after {
+.typingDots_b88801 > .ellipsis_b88801 + .text_b88801 > strong:not(:last-child)::after {
   content: var(--name-seperator);
   font-weight: 500;
 }
 
-.b8880176888cc928-typingDots > .b8880176888cc928-ellipsis + .b8880176888cc928-text:not(:has(>strong))::after {
+.typingDots_b88801 > .ellipsis_b88801 + .text_b88801:not(:has(>strong))::after {
   font-size: 16px;
   content: var(--several-users);
 }
