@@ -1,3 +1,12 @@
+/**
+ * @name CustomTypingText
+ * @description Custom user is "Typing" text
+ * @author 0pyr
+ * @version 1
+ * @authorId 277851641976324096
+ * @authorLink https://0pyr.cfd/
+*/
+
 .b8880176888cc928-typingDots > .b8880176888cc928-ellipsis + .b8880176888cc928-text {
   font-size: 0;
   height: 16px;

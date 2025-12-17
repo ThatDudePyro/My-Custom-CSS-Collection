@@ -85,6 +85,54 @@ To use these, The import for each CSS **must be at the very top** of your CSS in
 
 ---
 
+## Shrinking Growing Friends List
+
+```css
+@import url("https://raw.githubusercontent.com/ThatDudePyro/My-Custom-CSS-Collection/refs/heads/main/ShrinkingGrowingFriendsList.css");
+
+:root {
+    --friend-row-amount: 4;
+}
+@media (width < 1300px) {
+    #app-mount {
+        --friend-row-amount: 3;
+    }
+}
+@media (width < 1100px) {
+    #app-mount {
+        --friend-row-amount: 2;
+    }
+}
+@media (width < 700px) {
+    #app-mount {
+        --friend-row-amount: 1;
+    }
+}
+```
+
+<div align="center">
+  <picture>
+    <img alt="FullSizePicker" src="Assets/ShrinkingGrowingFriendsList.png" 
+  </picture>
+</div>
+
+---
+
+## Old Invites
+
+```css
+@import url("https://raw.githubusercontent.com/ThatDudePyro/My-Custom-CSS-Collection/refs/heads/main/OldInvites.css");
+```
+
+<div align="center">
+  <picture>
+    <img alt="FullSizePicker" src="Assets/OldInvites.png" 
+  </picture>
+</div>
+
+---
+
+
 ## FullSize Picker
 
 ```css
@@ -104,3 +152,26 @@ To use these, The import for each CSS **must be at the very top** of your CSS in
 </div>
 
 ---
+
+## Hide Mute/Deafen menus
+
+```css
+div[class^="_37e49614b9f110a9-micButtonParent"] {
+  button[role="switch"] {
+    border-radius: var(--radius-sm) !important;
+    
+    ~ button {
+      display: none;
+    }
+  }
+}
+```
+
+<div align="center">
+  <picture>
+    <img alt="CustomTypingText" src="Assets/HideMenus.png" 
+  </picture>
+</div>
+
+---
+

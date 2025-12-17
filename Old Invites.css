@@ -1,0 +1,95 @@
+/**
+ * @name OldInvites
+ * @description Brings back the old server invite look
+ * @author 0pyr
+ * @version 1
+ * @authorId 277851641976324096
+ * @authorLink https://0pyr.cfd/
+*/
+
+._083ae98ea5145b08-guildInviteContainer {
+  width: 400px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: end;
+  justify-content: space-between;
+  padding: 8px;
+  gap: 8px;
+  height: calc(48px + 72px);
+
+  ._083ae98ea5145b08-cardHeightMeasure {
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    gap: 8px;
+    flex: 1 1 auto!important;
+    min-width: 0;               
+  }
+
+  ._083ae98ea5145b08-mainContent,
+  ._6e5000705ad8bf77-established {
+    display: none;
+  }
+
+  .dca174a2baed7ac1-avatarContainer {
+    margin-top: 0px;
+    padding: 0px;
+    overflow: hidden;
+    min-width: 48px;
+
+    foreignObject {
+      mask: none !important;
+      overflow: hidden;
+      border-radius: 16px;
+    }
+
+    >svg {
+      width: 48px;
+      height: 48px;
+    }
+  }
+
+  ._083ae98ea5145b08-footer {
+    width: fit-content;
+    flex-shrink: 0 !important;
+    height: 48px;
+    align-content: center;
+    
+    ._083ae98ea5145b08-buttonContainer {
+      padding: 0px;
+      width: fit-content;
+
+      .a22cb0c66246f5d3-button {
+        width: auto;
+      }
+    }
+  }
+
+  ._6e5000705ad8bf77-header {
+    width: max-content !important;
+    padding: 0px;
+    margin: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    ._6e5000705ad8bf77-nameContainer, ._6e5000705ad8bf77-members, ._6e5000705ad8bf77-memberCount {
+      width: 100%!important;
+      flex-wrap: nowrap;
+    }
+
+    [data-text-variant] {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  ._083ae98ea5145b08-banner {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+  }
+}

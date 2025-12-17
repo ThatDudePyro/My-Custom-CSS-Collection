@@ -1,0 +1,18 @@
+/**
+ * @name Hide Mic/Headphone Menu
+ * @description Hides the menus next to the Mute/Deafen buttons
+ * @author 0pyr
+ * @version 1
+ * @authorId 277851641976324096
+ * @authorLink https://0pyr.cfd/
+*/
+
+div[class^="_37e49614b9f110a9-micButtonParent"] {
+  button[role="switch"] {
+    border-radius: var(--radius-sm) !important;
+    
+    ~ button {
+      display: none;
+    }
+  }
+}

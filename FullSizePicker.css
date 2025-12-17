@@ -1,3 +1,12 @@
+/**
+ * @name FullSizedExpressionPicker
+ * @description A Nice layout for discord with tark borders for use with discord's buit in colors
+ * @author 0pyr
+ * @version 1
+ * @authorId 277851641976324096
+ * @authorLink https://0pyr.cfd/
+*/
+
 [class*='_59d0d7075b521375-layerContainer'] [class*='_084343c4f11eaaab-positionLayer'] {
     height: 100% !important;
     [class*='_084343c4f11eaaab-drawerSizingWrapper'] {
