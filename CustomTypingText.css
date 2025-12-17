@@ -1,28 +1,28 @@
-.typingDots_b88801 > .ellipsis_b88801 + .text_b88801 {
+.b8880176888cc928-typingDots > .b8880176888cc928-ellipsis + .b8880176888cc928-text {
   font-size: 0;
   height: 16px;
 }
 
-.typingDots_b88801 > .ellipsis_b88801 + .text_b88801 > strong {
+.b8880176888cc928-typingDots > .b8880176888cc928-ellipsis + .b8880176888cc928-text > strong {
   font-size: 12px;
 }
 
-.typingDots_b88801 > .ellipsis_b88801 + .text_b88801 > strong:last-child::after {
+.b8880176888cc928-typingDots > .b8880176888cc928-ellipsis + .b8880176888cc928-text > strong:last-child::after {
   content: var(--single-user);
   font-weight: 500;
 }
 
-.typingDots_b88801 > .ellipsis_b88801 + .text_b88801 > strong:last-child:not(:first-child)::after {
+.b8880176888cc928-typingDots > .b8880176888cc928-ellipsis + .b8880176888cc928-text > strong:last-child:not(:first-child)::after {
   content: var(--multiple-users);
   font-weight: 500;
 }
 
-.typingDots_b88801 > .ellipsis_b88801 + .text_b88801 > strong:not(:last-child)::after {
+.b8880176888cc928-typingDots > .b8880176888cc928-ellipsis + .b8880176888cc928-text > strong:not(:last-child)::after {
   content: var(--name-seperator);
   font-weight: 500;
 }
 
-.typingDots_b88801 > .ellipsis_b88801 + .text_b88801:not(:has(>strong))::after {
+.b8880176888cc928-typingDots > .b8880176888cc928-ellipsis + .b8880176888cc928-text:not(:has(>strong))::after {
   font-size: 16px;
   content: var(--several-users);
 }
