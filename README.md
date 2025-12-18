@@ -4,6 +4,8 @@ This is a collection of the custom CSS that I use for equicord. This will be upd
 
 To use these, The import for each CSS **must be at the very top** of your CSS in Equicord/Vencord, An example is given below.
 
+There are a few that have decent customization and can be done within the root. Examples are provided, Please use them.
+
 ---
 
 ## Custom User Typing Text
@@ -91,11 +93,11 @@ To use these, The import for each CSS **must be at the very top** of your CSS in
 @import url("https://raw.githubusercontent.com/ThatDudePyro/My-Custom-CSS-Collection/refs/heads/main/ShrinkingGrowingFriendsList.css");
 
 :root {
-    --friend-row-amount: 4;
+    --friend-row-amount: 2;
 }
 @media (width < 1300px) {
     #app-mount {
-        --friend-row-amount: 3;
+        --friend-row-amount: 2;
     }
 }
 @media (width < 1100px) {
@@ -105,7 +107,7 @@ To use these, The import for each CSS **must be at the very top** of your CSS in
 }
 @media (width < 700px) {
     #app-mount {
-        --friend-row-amount: 1;
+        --friend-row-amount: 2;
     }
 }
 ```

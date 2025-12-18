@@ -7,30 +7,11 @@
  * @authorLink https://0pyr.cfd/
 */
 
-:root {
-    --friend-row-amount: 4;
-}
-@media (width < 1300px) {
-    #app-mount {
-        --friend-row-amount: 3;
-    }
-}
-@media (width < 1100px) {
-    #app-mount {
-        --friend-row-amount: 2;
-    }
-}
-@media (width < 700px) {
-    #app-mount {
-        --friend-row-amount: 1;
-    }
-}
-
 ._5ec2fb8b5de26b21-peopleList >div {
 display: flex;
 flex-wrap: wrap;
 margin: 0px 0px 0px 16px;
-.sectionTitle__5ec2f {
+._5ec2fb8b5de26b21-sectionTitle {
     width: 100%;
     >h2.title__1472a {
 margin-left: 0px;
