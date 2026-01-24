@@ -87,7 +87,7 @@ There are a few that have decent customization and can be done within the root. 
 
 ---
 
-## Shrinking Growing Friends List
+## Shrinking Growing Friends List - Currently broken (I dont feel like fixing it yet)
 
 ```css
 @import url("https://raw.githubusercontent.com/ThatDudePyro/My-Custom-CSS-Collection/refs/heads/main/ShrinkingGrowingFriendsList.css");
