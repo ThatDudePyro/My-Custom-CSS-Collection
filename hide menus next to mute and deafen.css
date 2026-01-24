@@ -7,11 +7,11 @@
  * @authorLink https://0pyr.cfd/
 */
 
-div[class^="micButtonParent"] {
+div[class^="_37e49614b9f110a9-micButtonParent"] {
   button[role="switch"] {
     border-radius: var(--radius-sm) !important;
-
-    ~ .buttonChevron__37e49 {
+    
+    ~ button {
       display: none;
     }
   }
