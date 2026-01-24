@@ -7,7 +7,7 @@
  * @authorLink https://0pyr.cfd/
 */
 
-._083ae98ea5145b08-guildInviteContainer {
+.guildInviteContainer__083ae {
   width: 400px;
   max-width: 100%;
   display: flex;
@@ -19,20 +19,20 @@
   gap: 8px;
   height: calc(48px + 72px);
 
-  ._083ae98ea5145b08-cardHeightMeasure {
+  .cardHeightMeasure__083ae {
     flex-direction: row !important;
     flex-wrap: nowrap !important;
     gap: 8px;
-    flex: 1 1 auto!important;
-    min-width: 0;               
+    flex: 1 1 auto !important;
+    min-width: 0;
   }
 
-  ._083ae98ea5145b08-mainContent,
-  ._6e5000705ad8bf77-established {
+  .mainContent__083ae,
+  .established__6e500 {
     display: none;
   }
 
-  .dca174a2baed7ac1-avatarContainer {
+  .avatarContainer_dca174 {
     margin-top: 0px;
     padding: 0px;
     overflow: hidden;
@@ -44,29 +44,29 @@
       border-radius: 16px;
     }
 
-    >svg {
+    > svg {
       width: 48px;
       height: 48px;
     }
   }
 
-  ._083ae98ea5145b08-footer {
+  .footer__083ae {
     width: fit-content;
     flex-shrink: 0 !important;
     height: 48px;
     align-content: center;
-    
-    ._083ae98ea5145b08-buttonContainer {
+
+    .buttonContainer__083ae {
       padding: 0px;
       width: fit-content;
 
-      .a22cb0c66246f5d3-button {
+      .button_a22cb0 {
         width: auto;
       }
     }
   }
 
-  ._6e5000705ad8bf77-header {
+  .header__6e500 {
     width: max-content !important;
     padding: 0px;
     margin: 0px;
@@ -74,8 +74,10 @@
     overflow: hidden;
     text-overflow: ellipsis;
 
-    ._6e5000705ad8bf77-nameContainer, ._6e5000705ad8bf77-members, ._6e5000705ad8bf77-memberCount {
-      width: 100%!important;
+    .nameContainer__6e500,
+    .members__6e500,
+    .memberCount__6e500 {
+      width: 100% !important;
       flex-wrap: nowrap;
     }
 
@@ -86,7 +88,7 @@
     }
   }
 
-  ._083ae98ea5145b08-banner {
+  .banner__083ae {
     position: absolute;
     top: 0px;
     right: 0px;

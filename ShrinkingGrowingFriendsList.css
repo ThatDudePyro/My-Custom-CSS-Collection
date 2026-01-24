@@ -7,7 +7,7 @@
  * @authorLink https://0pyr.cfd/
 */
 
-._5ec2fb8b5de26b21-peopleList >div {
+.peopleList__5ec2f >div {
 display: flex;
 flex-wrap: wrap;
 margin: 0px 0px 0px 16px;
@@ -17,12 +17,12 @@ margin: 0px 0px 0px 16px;
 margin-left: 0px;
     }
 }
-.cc61794aab086a2e-peopleListItem {
+.peopleListItem_cc6179 {
     margin: 0px!important;
     width: calc(100% / var(--friend-row-amount));
     overflow: visible;
 }
-.f4bc976213b83e68-infoSpacing {
+.infoSpacing_f4bc97 {
     display: none;
 }
 }

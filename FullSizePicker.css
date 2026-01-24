@@ -7,10 +7,11 @@
  * @authorLink https://0pyr.cfd/
 */
 
-[class*='_59d0d7075b521375-layerContainer'] [class*='_084343c4f11eaaab-positionLayer'] {
+.layerContainer__59d0d .positionLayer__08434 {
     height: 100% !important;
-    [class*='_084343c4f11eaaab-drawerSizingWrapper'] {
-        top: 3.5em !important;
-        height: calc(100% - 6em)
-    }
+}
+
+.layerContainer__59d0d .positionLayer__08434 .drawerSizingWrapper__08434 {
+    top: 3.5em !important;
+    height: calc(100% - 6em) !important;
 }
