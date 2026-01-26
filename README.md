@@ -138,12 +138,13 @@ There are a few that have decent customization and can be done within the root. 
 ## FullSize Picker
 
 ```css
-[class*='layerContainer_'] [class*='positionLayer__'] {
+.layerContainer__59d0d .positionLayer__08434 {
     height: 100% !important;
-    [class*='drawerSizingWrapper__'] {
-        top: 3.5em !important;
-        height: calc(100% - 8em)
-    }
+}
+
+.layerContainer__59d0d .positionLayer__08434 .drawerSizingWrapper__08434 {
+    top: 3.5em !important;
+    height: calc(100% - 6em) !important;
 }
 ```
 
@@ -158,7 +159,7 @@ There are a few that have decent customization and can be done within the root. 
 ## Hide Mute/Deafen menus
 
 ```css
-div[class^="_37e49614b9f110a9-micButtonParent"] {
+div.micButtonParent__37e49 {
   button[role="switch"] {
     border-radius: var(--radius-sm) !important;
     
