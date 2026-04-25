@@ -7,7 +7,7 @@
  * @authorLink https://0pyr.cfd/
 */
 
-div.micButtonParent__37e49 {
+div[class^="audioButtonParent__5e764"] {
   button[role="switch"] {
     border-radius: var(--radius-sm) !important;
     
