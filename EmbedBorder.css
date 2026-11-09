@@ -2,12 +2,12 @@
  * @name EmbedBorder
  * @description Nicer looking embeds
  * @author 0pyr
- * @version 1
+ * @version 1.0.5 - updated Nov. 9, 2026
  * @authorId 277851641976324096
  * @authorLink https://0pyr.cfd/
-*/
 
-.embedFull__623de {
+*/
+.embedFull_XyW1ZT {
   overflow: hidden;
   border-left-width: 0px !important;
   padding-left: 4px;
@@ -18,7 +18,7 @@
   border-radius: var(--wh-border-radious);
 }
 
-.embedFull__623de .embedSuppressButton__623de {
+.embedFull_XyW1ZT .embedSuppressButton_XyW1ZT {
   opacity: calc(1 * var(--wh-always-show-suppress-embed-button)) !important;
   top: var(--wh-border-width);
   right: var(--wh-border-width);
@@ -27,7 +27,7 @@
   position: absolute;
 }
 
-.embedFull__623de::before {
+.embedFull_XyW1ZT::before {
   top: 0px;
   left: 0;
   right: 0;
@@ -41,7 +41,7 @@
   border-radius: var(--wh-border-radious);
 }
 
-.embedFull__623de::after {
+.embedFull_XyW1ZT::after {
   content: "";
   position: absolute;
   background: hsl(
@@ -56,15 +56,15 @@
   z-index: 2;
 }
 
-.embedFull__623de .gridContainer__623de {
+.embedFull_XyW1ZT .gridContainer_XyW1ZT {
   z-index: 3;
 }
 
-.withAccentColor__60fa3::before {
+.withAccentColor_rc97-L::before {
   display: none;
 }
 
-.withAccentColor__60fa3 {
+.withAccentColor_rc97-L {
   background: color-mix(
     in oklch,
     hsl(from var(--background-surface-high) h s l / 100%),
@@ -74,7 +74,7 @@
   border-radius: var(--wh-border-radious);
 }
 
-.container__5e208 {
+.container_uEFz2z {
   overflow: hidden;
   border-left-width: 0px !important;
   padding-left: 4px;
